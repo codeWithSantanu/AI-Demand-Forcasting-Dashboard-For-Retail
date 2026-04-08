@@ -1,0 +1,114 @@
+🧠 1. PROBLEM STATEMENT — “SahayakAI”
+
+---
+
+📌 A. INTRODUCTION (FOR REPORT)
+
+In India, the government provides numerous welfare schemes aimed at improving the lives of citizens, especially those belonging to economically weaker sections, unemployed individuals, students, and farmers. However, despite the availability of these schemes, a large portion of the population remains unaware of the benefits they are eligible for.
+
+The information regarding these schemes is scattered across multiple government websites and portals, often presented in complex and technical language. As a result, users find it difficult to identify relevant schemes, understand eligibility criteria, and complete the application process efficiently.
+
+---
+
+🚨 B. CORE PROBLEM DESCRIPTION
+
+The major issues faced by users include:
+
+Lack of awareness about available government schemes
+Difficulty in determining eligibility based on personal criteria
+Complex and non-user-friendly government portals
+Absence of a centralized system for scheme discovery
+Time-consuming manual search process
+
+👉 This leads to:
+
+Missed financial and social benefits
+Reduced participation in welfare programs
+Increased dependency on intermediaries
+
+---
+
+🎯 C. HIT 5-FIELD PROBLEM STATEMENT (MANDATORY)
+
+✅ WHO
+
+Unemployed individuals, students, and low-income citizens in India
+
+
+✅ SUFFERS FROM
+
+Difficulty in identifying relevant government schemes and understanding their eligibility criteria
+
+
+✅ WHICH CAUSES
+
+Loss of financial opportunities, lack of awareness, and significant time wasted navigating multiple government platforms
+
+
+✅ WE WILL BUILD
+
+An intelligent web-based system that analyzes user inputs (age, income, category, documents) and recommends eligible government schemes along with readiness score, missing documents, and official application links
+
+
+✅ SUCCESS MEANS
+
+Users can identify at least 3 relevant schemes within 10 seconds, with clear guidance on eligibility and application requirements
+
+---
+
+💡 D. REFINED PROBLEM STATEMENT (SHORT — FOR PPT)
+
+👉 Use this slide:
+
+> “Millions of Indian citizens struggle to identify and access relevant government schemes due to scattered information and complex eligibility criteria.”
+
+---
+
+🧾 E. DETAILED PROBLEM STATEMENT (FOR PROJECT REPORT)
+
+> In India, a wide range of government schemes are introduced to support citizens in areas such as housing, healthcare, education, and employment. However, the awareness and accessibility of these schemes remain limited, particularly among unemployed and economically weaker sections. The lack of a centralized and user-friendly system makes it difficult for individuals to determine which schemes they qualify for. Additionally, complex eligibility criteria and scattered information across multiple platforms increase the difficulty of accessing these benefits. This results in underutilization of government initiatives and loss of potential financial support. Therefore, there is a need for an intelligent system that simplifies scheme discovery, evaluates eligibility, and guides users through the application process effectively.
+
+---
+
+⚡ F. KEY PROBLEM INSIGHTS (ADD IN REPORT)
+
+Information fragmentation across platforms
+Lack of personalization
+Technical language barrier
+No readiness guidance
+No centralized access
+
+---
+
+📊 G. PROBLEM IMPORTANCE (WHY IT MATTERS)
+
+Promotes social inclusion
+Improves scheme utilization
+Reduces information gap
+Supports digital empowerment
+
+---
+
+🧠 H. VIVA EXPLANATION (VERY IMPORTANT)
+
+If examiner asks:
+
+👉 “What problem are you solving?”
+
+Say:
+
+> “We are solving the problem of lack of awareness and accessibility of government schemes by providing a system that not only identifies eligible schemes but also guides users on how ready they are to apply.”
+
+---
+
+🧠 I. WHAT MAKES THIS STRONG
+
+✔ Real-world problem
+✔ Clearly defined users
+✔ Measurable outcome
+✔ Social impact
+✔ Justifies your solution
+
+---
+
+🚀 FINAL CO-FOUNDER VERDICT

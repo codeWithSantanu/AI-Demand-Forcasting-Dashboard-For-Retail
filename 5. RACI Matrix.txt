@@ -1,0 +1,126 @@
+👥 5. RACI MATRIX (FULL DETAIL — REPORT + TABLE + VIVA READY)
+
+---
+
+🧠 A. INTRODUCTION (FOR REPORT)
+
+In team-based software development, clear task allocation is essential to ensure efficiency and accountability. To manage responsibilities effectively, we used the RACI Matrix model, which defines roles for each task in terms of Responsibility, Accountability, Consultation, and Information sharing.
+
+This approach ensures that:
+
+Every task has a clear owner
+No duplication of work occurs
+Team coordination is maintained
+Project delivery stays on schedule
+
+---
+
+📌 B. WHAT IS RACI?
+
+| Term                | Meaning                              |
+| ------------------- | ------------------------------------ |
+| R (Responsible) | Person who performs the task         |
+| A (Accountable) | Person responsible for final outcome |
+| C (Consulted)   | People whose input is taken          |
+| I (Informed)    | People kept updated                  |
+
+---
+
+👥 C. TEAM STRUCTURE (FOR YOUR PROJECT)
+
+| Member   | Role                          |
+| -------- | ----------------------------- |
+| Member 1 | Team Lead / Backend Developer |
+| Member 2 | Frontend Developer            |
+| Member 3 | Data Engineer                 |
+| Member 4 | Logic / AI Developer          |
+| Member 5 | Tester & Documentation        |
+
+---
+
+📊 D. RACI MATRIX TABLE (MAIN CONTENT)
+
+👉 Use this in your report:
+
+| Task                         | R (Responsible) | A (Accountable) | C (Consulted) | I (Informed) |
+| ---------------------------- | --------------- | --------------- | ------------- | ------------ |
+| Problem Definition           | Team Lead       | Team Lead       | All Members   | All          |
+| Dataset Collection           | Data Engineer   | Team Lead       | AI Dev        | All          |
+| Dataset Structuring          | Data Engineer   | Team Lead       | Backend Dev   | All          |
+| Backend API Development      | Backend Dev     | Team Lead       | AI Dev        | All          |
+| Eligibility Logic            | AI Dev          | Team Lead       | Backend Dev   | All          |
+| Score Calculation            | AI Dev          | Team Lead       | Backend Dev   | All          |
+| Frontend UI Design           | Frontend Dev    | Team Lead       | Tester        | All          |
+| Frontend Development         | Frontend Dev    | Team Lead       | Backend Dev   | All          |
+| Frontend-Backend Integration | Backend Dev     | Team Lead       | Frontend Dev  | All          |
+| Testing & Debugging          | Tester          | Team Lead       | All Members   | All          |
+| AI Integration (Optional)    | AI Dev          | Team Lead       | Backend Dev   | All          |
+| Deployment                   | Backend Dev     | Team Lead       | Frontend Dev  | All          |
+| Documentation                | Tester          | Team Lead       | All Members   | All          |
+| Demo Preparation             | Tester          | Team Lead       | All Members   | All          |
+
+---
+
+⚠️ E. IMPORTANT RULES (VERY IMPORTANT)
+
+👉 From HIT guideline:
+
+Each task must have exactly ONE Responsible (R)
+Team Lead is Accountable (A) for all tasks
+No task should have multiple “R”
+
+---
+
+🎯 F. TASK DISTRIBUTION LOGIC
+
+Backend Dev → API + integration
+Frontend Dev → UI + user experience
+Data Engineer → dataset creation
+AI Dev → logic + scoring
+Tester → testing + demo
+
+👉 Balanced workload → better performance
+
+---
+
+🧠 G. BENEFITS OF USING RACI
+
+Clear ownership
+Faster decision-making
+Reduced confusion
+Better coordination
+
+---
+
+⚠️ H. COMMON MISTAKES (AVOID)
+
+❌ Multiple Responsible for one task
+❌ No accountability
+❌ No tester role
+❌ Everyone doing everything
+
+---
+
+🎤 I. VIVA ANSWER (VERY IMPORTANT)
+
+If examiner asks:
+
+👉 “How did you manage team tasks?”
+
+Say:
+
+> “We used a RACI matrix to clearly define responsibilities and ensure that each task had a single owner, which improved coordination and efficiency.”
+
+---
+
+🧠 J. HIGH-MARKS LINE
+
+Say:
+
+> “This helped us avoid task overlap and ensured accountability throughout the development process.”
+
+🔥 Strong professional impression
+
+---
+
+🚀 K. FINAL CO-FOUNDER VERDICT

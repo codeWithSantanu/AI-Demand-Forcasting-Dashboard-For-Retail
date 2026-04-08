@@ -1,0 +1,205 @@
+✅ 8. DEFINITION OF DONE (FULL DETAIL — REPORT + TESTING + VIVA READY)
+
+---
+
+🧠 A. INTRODUCTION (FOR REPORT)
+
+The Definition of Done (DoD) defines the specific conditions that must be met for a feature or module to be considered complete. It ensures that all components of the system are not only implemented but also tested, validated, and functioning correctly.
+
+For SahayakAI, the Definition of Done was designed to ensure:
+
+Functional correctness
+System reliability
+Demo readiness
+Deployment completeness
+
+---
+
+📌 B. PURPOSE OF DEFINITION OF DONE
+
+Avoid ambiguity (“we think it works”)
+Ensure each feature is testable
+Maintain quality standards
+Confirm readiness for demonstration
+
+---
+
+🧱 C. FEATURE-WISE DEFINITION OF DONE
+
+---
+
+🔹 1. USER INPUT FORM
+
+✅ Done When:
+
+User can input:
+
+  Age (numeric only)
+  Income (numeric only)
+  Category (valid values)
+  Documents (comma-separated)
+Form submits without errors
+Invalid inputs are handled gracefully
+
+---
+
+🧪 Test Cases:
+
+Enter valid data → form submits successfully ✔
+Enter invalid data (text in age) → error handled ✔
+
+---
+
+🔹 2. ELIGIBILITY + SCORING ENGINE (CORE)
+
+✅ Done When:
+
+Backend API (`/check`) returns correct results
+Eligibility filtering works correctly
+Readiness score is calculated accurately
+Missing documents are identified properly
+
+---
+
+🧪 Test Cases:
+
+Input sample user → correct schemes returned ✔
+Score matches expected logic ✔
+Missing documents list is correct ✔
+
+---
+
+🔹 3. RESULTS DASHBOARD
+
+✅ Done When:
+
+Displays:
+
+  Scheme name
+  Score (%)
+  Missing documents
+  Official link
+UI loads within 2–3 seconds
+Works across browser and mobile
+
+---
+
+🧪 Test Cases:
+
+Submit form → results displayed ✔
+Click link → opens official site ✔
+
+---
+
+⚙️ D. SYSTEM-LEVEL DEFINITION OF DONE
+
+---
+
+🔹 Backend
+
+✅ Done When:
+
+Server runs without errors
+API response time < 2 seconds
+API tested using Postman
+
+---
+
+🔹 Frontend
+
+✅ Done When:
+
+UI loads properly
+No console errors
+Responsive design (desktop + mobile)
+
+---
+
+🔹 Integration
+
+✅ Done When:
+
+Frontend successfully communicates with backend
+Data displayed correctly
+Tested multiple times (5+ runs)
+
+---
+
+🔹 Deployment
+
+✅ Done When:
+
+Application is live (Vercel/Render)
+Accessible via public URL
+Works on mobile network (not only localhost)
+
+---
+
+🎯 E. FINAL PROJECT DEFINITION OF DONE
+
+👉 The project is considered complete when:
+
+```text
+✔ User inputs are accepted correctly
+✔ Eligible schemes are returned
+✔ Readiness score is calculated
+✔ Missing documents are displayed
+✔ Official links are functional
+✔ System is tested and bug-free
+✔ Application is deployed online
+✔ Demo runs smoothly without failure
+```
+
+---
+
+⚠️ F. COMMON MISTAKES (AVOID)
+
+❌ No testing defined
+❌ Only backend works (no UI)
+❌ Not deployed
+❌ No validation
+
+---
+
+🧠 G. TESTING STRATEGY USED
+
+Functional testing (feature-wise)
+Input validation testing
+Integration testing
+Manual testing with multiple cases
+
+---
+
+🎤 H. VIVA ANSWER (VERY IMPORTANT)
+
+If examiner asks:
+
+👉 “How do you know your project is complete?”
+
+Say:
+
+> “We defined testable criteria for each module and ensured that all features passed validation, integration, and deployment checks.”
+
+---
+
+🧠 I. HIGH-MARKS LINE
+
+Say:
+
+> “Our Definition of Done ensured that every feature was fully functional, tested, and demo-ready.”
+
+🔥 Strong impression
+
+---
+
+🚀 J. WHY THIS DoD IS STRONG
+
+✔ Testable
+✔ Clear
+✔ Practical
+✔ Covers full system
+✔ Matches MVP
+
+---
+
+🧠 FINAL CO-FOUNDER VERDICT

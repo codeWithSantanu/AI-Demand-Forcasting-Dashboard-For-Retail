@@ -1,0 +1,259 @@
+🧱 4. SYSTEM ARCHITECTURE (FULL DETAIL — REPORT + DIAGRAM + VIVA READY)
+
+---
+
+🧠 A. INTRODUCTION (FOR REPORT)
+
+System architecture defines how different components of the application interact with each other to deliver the final functionality. For SahayakAI, we designed a modular and scalable architecture based on a 5-layer model, ensuring clear separation of concerns and ease of development.
+
+The architecture follows a structured flow from data input to final output, enabling efficient processing, maintainability, and future scalability.
+
+---
+
+⚙️ B. ARCHITECTURE OVERVIEW (ONE LINE)
+
+👉
+“The system collects user input, processes it through a backend logic engine using a structured dataset, and returns eligible schemes with readiness score and application details.”
+
+---
+
+🧱 C. 5-LAYER ARCHITECTURE (MANDATORY)
+
+👉 As per HIT guideline:
+
+> Data → AI → Logic → Application → Output 
+
+---
+
+## 🔹 1. DATA LAYER
+
+### 📌 Purpose:
+
+Stores all scheme-related data
+
+### 📦 Components:
+
+* `schemes.json`
+
+### 📊 Data Includes:
+
+* Scheme name
+* Eligibility criteria
+* Required documents
+* Benefits
+* Official links
+
+### 💡 Role:
+
+Acts as the **foundation of the system**
+
+---
+
+## 🔹 2. AI LAYER (OPTIONAL)
+
+### 📌 Purpose:
+
+Simplifies scheme information for users
+
+### 🔧 Tool:
+
+* OpenAI / Claude API
+
+### 📥 Input:
+
+* Scheme details
+
+### 📤 Output:
+
+* Simple explanation
+
+### 💡 Role:
+
+Improves **user understanding**
+
+---
+
+## 🔹 3. LOGIC LAYER (CORE ENGINE 🔥)
+
+### 📌 Purpose:
+
+Processes user input and determines results
+
+### ⚙️ Functions:
+
+* Eligibility checking
+* Score calculation
+* Missing documents detection
+
+---
+
+### 🔄 Workflow:
+
+```text
+User Input → Compare with scheme rules → 
+Apply conditions → Calculate score → 
+Identify missing docs → Generate result
+```
+
+---
+
+### 💡 Role:
+
+This is the **brain of the system**
+
+---
+
+## 🔹 4. APPLICATION LAYER
+
+### 📌 Purpose:
+
+Handles user interaction and API communication
+
+### 🔧 Components:
+
+#### Frontend:
+
+* React UI
+* Form + Results page
+
+#### Backend:
+
+* Express API (`/check`)
+
+---
+
+### 🔄 Flow:
+
+```text
+Frontend → API Request → Backend → Processing → Response
+```
+
+---
+
+### 💡 Role:
+
+Connects user with system logic
+
+---
+
+## 🔹 5. OUTPUT LAYER
+
+### 📌 Purpose:
+
+Displays final results to the user
+
+### 📊 Output Includes:
+
+* Scheme name
+* Readiness score (%)
+* Missing documents
+* Official link
+
+---
+
+### 💡 Role:
+
+Delivers **user value**
+
+---
+
+# 🔁 D. END-TO-END SYSTEM FLOW
+
+```text
+User → Input Form → React UI → API Call →
+Node.js Backend → Logic Engine →
+Dataset → Process → Results →
+Display on UI
+```
+
+---
+
+# 🧩 E. ARCHITECTURE DIAGRAM (WRITE IN REPORT)
+
+👉 Draw this:
+
+```text
+        [User]
+           ↓
+ [Frontend (React UI)]
+           ↓
+ [Backend API (Node.js)]
+           ↓
+     [Logic Engine]
+           ↓
+   [Dataset (JSON)]
+           ↓
+ [Results + AI Explanation]
+```
+
+---
+
+# ⚙️ F. TECHNOLOGY MAPPING
+
+| Layer       | Technology        |
+| ----------- | ----------------- |
+| Data        | JSON Dataset      |
+| AI          | OpenAI (Optional) |
+| Logic       | Node.js           |
+| Application | React + Express   |
+| Output      | UI Dashboard      |
+
+---
+
+# 🧠 G. DESIGN PRINCIPLES USED
+
+* **Modularity** → Each layer is independent
+* **Simplicity** → Minimal tools for fast development
+* **Scalability** → Can add more schemes later
+* **Separation of Concerns** → Data, logic, UI separated
+
+---
+
+# ⚠️ H. LIMITATIONS
+
+* No real-time API integration
+* Limited dataset
+* AI layer optional
+
+---
+
+# 🚀 I. FUTURE IMPROVEMENTS
+
+* Add real-time government APIs
+* Add multilingual support
+* Add mobile application
+
+---
+
+# 🎯 J. VIVA ANSWER (VERY IMPORTANT)
+
+If asked:
+
+👉 “Explain your architecture”
+
+Say:
+
+> “We used a 5-layer architecture separating data, logic, and presentation. The backend processes user input using a structured dataset and returns results to the frontend for display.”
+
+---
+
+# 🧠 K. HIGH-MARKS LINE
+
+Say:
+
+> “This architecture ensures modularity, scalability, and efficient data processing.”
+
+🔥 Strong impression
+
+---
+
+# 🧠 L. WHY THIS ARCHITECTURE IS STRONG
+
+* ✔ Clear structure
+* ✔ Easy to explain
+* ✔ Matches implementation
+* ✔ Industry-style
+
+---
+
+🚀 FINAL CO-FOUNDER VERDICT

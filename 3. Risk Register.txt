@@ -1,0 +1,127 @@
+⚠️ 3. RISK REGISTER (FULL DETAIL — REPORT + TABLE + VIVA READY)
+
+---
+
+🧱 A. INTRODUCTION (FOR REPORT)
+
+In any software project, identifying potential risks before development is critical to ensure smooth execution and successful delivery. A risk register helps in systematically analyzing possible issues, estimating their impact, and planning mitigation strategies.
+
+For the SahayakAI project, risks were identified across technical, data, team, and deployment aspects to minimize failures and ensure a stable MVP within the given timeline.
+
+---
+
+📊 B. RISK REGISTER TABLE (MAIN CONTENT)
+
+👉 Use this table in your report:
+
+| Risk ID | Risk Description                     | Probability | Impact   | Reason                                       | Mitigation Strategy                               |
+| ------- | ------------------------------------ | ----------- | -------- | -------------------------------------------- | ------------------------------------------------- |
+| R1      | Incorrect eligibility logic          | High        | High     | Simplified conditions may give wrong results | Test with multiple cases, validate logic manually |
+| R2      | Dataset inaccuracies                 | High        | High     | Manual data collection errors                | Cross-check with official government websites     |
+| R3      | Invalid or broken links              | Medium      | High     | Wrong or outdated URLs                       | Verify links before final deployment              |
+| R4      | Time constraint (1 week)             | High        | Critical | Limited development time                     | Strictly follow MVP (3 features only)             |
+| R5      | Frontend-backend integration failure | Medium      | High     | API mismatch or data errors                  | Test APIs using Postman before integration        |
+| R6      | Incorrect user input                 | Medium      | Medium   | Users may enter wrong format                 | Add input validation and constraints              |
+| R7      | AI API failure (optional feature)    | Low         | Medium   | API downtime or rate limit                   | Use static fallback explanation                   |
+| R8      | Team coordination issues             | Medium      | High     | Lack of task clarity                         | Use RACI matrix for clear role assignment         |
+| R9      | Deployment failure                   | Low         | High     | Hosting/server issues                        | Test deployment early, keep backup                |
+| R10     | Demo failure during evaluation       | Low         | Critical | Network/server crash                         | Keep screenshots and recorded demo ready          |
+
+---
+
+🔥 C. TOP 5 CRITICAL RISKS (HIGHLIGHT)
+
+👉 Mention these in viva:
+
+1. Incorrect eligibility logic
+2. Dataset accuracy
+3. Time constraint
+4. Integration issues
+5. Demo failure
+
+---
+
+🧠 D. RISK ANALYSIS (FOR REPORT)
+
+🔴 High Risk:
+
+Logic errors
+Dataset issues
+Time limitation
+
+🟡 Medium Risk:
+
+Input errors
+Integration bugs
+
+🟢 Low Risk:
+
+AI failure
+Deployment issues
+
+---
+
+🛡️ E. MITIGATION STRATEGY (IMPORTANT)
+
+We followed these strategies:
+
+Reduced scope to only 3 MVP features
+Used structured dataset for accuracy
+Performed multiple test cases
+Validated API responses before UI integration
+Prepared backup demo materials
+
+---
+
+⚙️ F. RISK MANAGEMENT APPROACH
+
+Steps followed:
+
+1. Identify risks early
+2. Categorize by probability & impact
+3. Plan mitigation strategies
+4. Monitor during development
+5. Prepare backup solutions
+
+---
+
+⚠️ G. LIMITATIONS
+
+Dataset may not cover all schemes
+Eligibility logic is simplified
+System depends on correct user input
+
+---
+
+🎯 H. VIVA ANSWER (VERY IMPORTANT)
+
+If examiner asks:
+
+👉 “How did you handle risks?”
+
+Say:
+
+> “We identified potential risks at the beginning of the project and reduced complexity by focusing on a minimal viable product, ensuring stability and successful delivery.”
+
+---
+
+🧠 I. PRO TIP (HIGH MARKS)
+
+Say:
+
+> “We prioritized high-impact risks and addressed them proactively to ensure a reliable system.”
+
+🔥 This shows professional thinking
+
+---
+
+🧠 J. WHY THIS RISK REGISTER IS STRONG
+
+✔ Covers all major areas
+✔ Includes mitigation
+✔ Realistic
+✔ Matches MVP scope
+
+---
+
+🚀 FINAL CO-FOUNDER VERDICT

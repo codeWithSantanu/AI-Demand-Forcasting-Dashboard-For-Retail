@@ -1,0 +1,213 @@
+🚀 7. MVP PLAN (FULL DETAIL — REPORT + STRUCTURE + VIVA READY)
+
+---
+
+🧠 A. INTRODUCTION (FOR REPORT)
+
+The **Minimum Viable Product (MVP) represents the most simplified version of the system that delivers core functionality while remaining feasible within the given time constraints. For SahayakAI, the MVP was carefully designed to focus on solving the primary problem without adding unnecessary complexity.
+
+The goal was to build a system that demonstrates:
+
+Clear value to users
+Functional completeness
+Fast execution within 1 week
+
+---
+
+🎯 B. MVP OBJECTIVE
+
+👉
+“To enable users to identify eligible government schemes quickly and understand their readiness to apply.”
+
+---
+
+📌 C. MVP DEFINITION
+
+The MVP of SahayakAI is a web-based system that:
+
+Accepts user details
+Matches eligible schemes
+Calculates readiness score
+Displays missing documents and official links
+
+---
+
+🧱 D. MVP FEATURE CLASSIFICATION (MANDATORY)
+
+---
+
+✅ MUST-HAVE FEATURES (ONLY 3)
+
+👉 As per HIT rule: Maximum 3 features
+
+---
+
+🔹 1. User Input Form
+
+📌 Description:
+
+Collects user data required for eligibility checking
+
+📥 Inputs:
+
+Age
+Income
+Category (student, unemployed, etc.)
+Documents available
+
+🎯 Purpose:
+
+Provides necessary data for processing
+
+---
+
+🔹 2. Eligibility + Scoring Engine (CORE 🔥)
+
+📌 Description:
+
+Processes user input against scheme dataset
+
+⚙️ Functions:
+
+Filter schemes based on eligibility
+Calculate readiness score (%)
+Identify missing documents
+
+🎯 Purpose:
+
+Acts as the decision-making system
+
+---
+
+🔹 3. Results Dashboard
+
+📌 Description:
+
+Displays final output to user
+
+📊 Output:
+
+Scheme name
+Readiness score
+Missing documents
+Official link
+
+🎯 Purpose:
+
+Provides actionable insights
+
+---
+
+⚠️ SHOULD-HAVE FEATURES (ONLY IF TIME PERMITS)
+
+AI-based explanation of schemes
+Improved UI design (cards, styling)
+
+---
+
+❌ OUT OF SCOPE (IMPORTANT FOR REPORT)
+
+User authentication (login/signup)
+Chatbot functionality
+Mobile application
+Real-time government API integration
+Multilingual support
+
+👉 This shows focused development
+
+---
+
+🔍 E. MVP FILTER CRITERIA (VERY IMPORTANT)
+
+Each feature was evaluated using:
+
+| Question                     | Decision          |
+| ---------------------------- | ----------------- |
+| Can system work without it?  | If YES → Excluded |
+| Is it essential for demo?    | If YES → Included |
+| Can it be built in < 3 days? | If YES → Included |
+
+---
+
+🔄 F. MVP USER FLOW (CORE JOURNEY)
+
+```text
+User → Enter details → Submit →
+System processes → Results displayed →
+User views schemes + score + missing docs
+```
+
+👉 This represents the **complete system workflow**
+
+---
+
+⚙️ G. MVP BUILD SEQUENCE
+
+1. Dataset preparation
+2. Backend logic implementation
+3. Frontend UI development
+4. API integration
+5. Results display
+
+---
+
+🎯 H. MVP SUCCESS CRITERIA
+
+The MVP is considered successful if:
+
+System returns correct schemes
+Score is calculated accurately
+Missing documents are identified
+Results are displayed within seconds
+
+---
+
+⚠️ I. RISKS IN MVP (LINKED TO DESIGN)
+
+Overloading features → avoided
+Complex AI → avoided
+Time constraints → managed via minimal features
+
+---
+
+🧠 J. WHY THIS MVP IS STRONG
+
+✔ Focused on core problem
+✔ Easy to implement
+✔ Demo-ready
+✔ Scalable
+
+---
+
+🎤 K. VIVA ANSWER (VERY IMPORTANT)
+
+If examiner asks:
+
+👉 “How did you define your MVP?”
+
+Say:
+
+> “We limited our MVP to three core features—input, processing, and output—to ensure clarity, fast development, and a complete user workflow.”
+
+---
+
+🧠 L. HIGH-MARKS LINE
+
+Say:
+
+> “We prioritized functionality over complexity to deliver a reliable and demo-ready system.”
+
+🔥 Strong impression
+
+---
+
+🚀 M. FUTURE EXTENSIONS (MENTION IN REPORT)
+
+AI chatbot for scheme guidance
+Multilingual support
+Real-time API integration
+Document upload system
+
+---
+
+🧠 FINAL CO-FOUNDER VERDICT
